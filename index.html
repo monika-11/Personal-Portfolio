@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f01c627bd8.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Skills</a></li>
+                    <li><a href="#portfolio">My Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+           
+
+           <div class="header-text">
+                <h1> Hi,Hello Im <span>monika</span></h1>
+                <p>  An Aspiring Software Engineer</p>
+              
+            </div>
+        </div>
+    </div>
+
+<!-- ------------------------about------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user(2).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        An enthusiastic Information Science Engineering student at DSCE, I am dedicated to cultivating a
+robust skill set in the realm of information technology. Eager to leverage my education and passion
+for technology, I am seeking opportunities that will allow me to contribute to and thrive in the
+ever-evolving field of technology
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming:</span>Java,C,Python</li>
+                            <li><span>Frontend:</span>Html,Css,Javascript</li>
+                            <li><span>Databases:</span>Sql</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li><span>Simon-Game:</span>Helps in Enhancing memory power</li>
+                            <li><span>TaskCascade:</span>Helps in organizing a day</li>
+                            <li><span>RandomQuoteGenerator:</span>Helps to stay motivated</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Dsce,bangalore:</span>BE in InformationScienceEngineering</li>
+                            <li><span>Alvas Pu college:</span>PCMB</li>
+                            <li><span>St Anns:</span>SSLC</li>
+                        </ul>
+                      </div>
+                    
+                </div>
+
+            </div>
+                
+        </div>
+    </div>
+
+    <!-- ---------------------------services------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Frontend</h2>
+                    <p>Frontend development involves creating the user interface and experience of a software
+                         application or website. It includes HTML for structure, CSS for styling, and JavaScript for interactivity. 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Backend</h2>
+                    <p>Backend development involves building the server-side of a software application. 
+                        Backend technologies includes Node.js, databases 
+                        (e.g., MySQL, MongoDB), and server frameworks (e.g., Django, Express). 
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App</h2>
+                    <p>App development using Java involves leveraging the Java programming language to create applications 
+                        for various platforms, including desktop, web, and mobile..
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------portfrolio---------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Projects</div>
+               <div class="work-list">
+
+                <div class="work">
+                    <img src="Images/1 (1).png">
+                    <div class="layer">
+                        <h3>Simon-Game</h3>
+                        <p>
+                           It consists of a series of colored buttons that light up in a sequence, and the player must 
+                            replicate the sequence by pressing the buttons in the correct order
+                        </p>
+                        <a href="#"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work2.png">
+                    <div class="layer">
+                        <h3>TaskCascade</h3>
+                        <p>
+                            A TaskCascade is a simple application that 
+                            helps users organize and manage their tasks or activities. 
+                        </p>
+                        <a href="#"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="Images/work3.jpg">
+                    <div class="layer">
+                        <h3>RandomQuoteGenerator</h3>
+                        <p>
+                            A Random Quote Generator is a simple web application 
+                            that dynamically displays a new quote each time the 
+                            user requests it. </p>
+                        <a href="#"> <i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+         </div>
+    </div>
+ <!-- -------------------------------------contact--- 
+-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>contactme@123.com</p>
+              <p><i class="fa-solid fa-phone"></i>123-344-4566</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/monika-mallappa-80b1b51a5/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/monika-11"><i class="fa-brands fa-github"></i></i></a>
+              
+            </div>
+            <a href="Images/Monika.pdf"  download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet"> 
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="New Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright monika. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
