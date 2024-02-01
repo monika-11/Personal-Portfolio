@@ -3,7 +3,6 @@
 This is my Personal Portfolio Website which is a static web page built using HTML, CSS, and JavaScript to showcase my  professional profile, skills, and projects. The goal is to create a visually appealing and user-friendly interface that effectively communicates my  abilities and experience.
 
 
-
 Key Features:
 
 Introduction Section:
